@@ -1,10 +1,10 @@
+import WebSock from './WebSock';
 import './App.css';
-import EventEmitter from './EventSourcing';
 
 function App() {
   return (
     <div>
-      <EventEmitter />
+      <WebSock />
     </div>
   );
 }
