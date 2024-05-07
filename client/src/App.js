@@ -1,10 +1,10 @@
 import './App.css';
-import LongPulling from './longPulling';
+import EventEmitter from './EventSourcing';
 
 function App() {
   return (
     <div>
-      <LongPulling />
+      <EventEmitter />
     </div>
   );
 }
